@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-15T17:36:38.339Z",
+  "total_records": 671,
+  "source_surfaces": [
+    {
+      "source_surface": "GitHub",
+      "records": 271,
+      "classifications": {
+        "unclassified": 253,
+        "quarantine/excluded": 18
+      },
+      "quarantine_results": {
+        "review_required": 253,
+        "keyword_matched": 18
+      }
+    },
+    {
+      "source_surface": "Notion",
+      "records": 400,
+      "classifications": {
+        "reviewed_candidate": 392,
+        "quarantine/excluded": 8
+      },
+      "quarantine_results": {
+        "review_required": 392,
+        "keyword_matched": 8
+      }
+    }
+  ]
+}
