@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T17:40:46.734Z",
+  "generated_at": "2026-08-15T17:46:56.478Z",
   "ledger_kind": "source_index_floor",
-  "total_records": 671,
+  "total_records": 751,
   "source_surfaces": [
     {
       "source_surface": "GitHub",
@@ -25,6 +25,18 @@
       "quarantine_results": {
         "review_required": 392,
         "keyword_matched": 8
+      }
+    },
+    {
+      "source_surface": "OneDrive",
+      "records": 80,
+      "classifications": {
+        "unclassified": 77,
+        "quarantine/excluded": 3
+      },
+      "quarantine_results": {
+        "review_required": 77,
+        "keyword_matched": 3
       }
     }
   ]

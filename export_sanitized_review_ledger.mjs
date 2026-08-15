@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
-const inputPath = "/home/ubuntu/corpus_delta_candidate_ledger_floor_2026_08_15.json";
+const inputPath = "/home/ubuntu/corpus_delta_candidate_ledger_v2_2026_08_15.json";
 const outputDir = "/home/ubuntu/corpus-delta-review/data";
 const input = JSON.parse(await readFile(inputPath, "utf8"));
 
@@ -10,12 +10,12 @@ function privateReference(value) {
 }
 
 const sanitized = input.map((entry) => {
-  if (entry.source_surface === "Notion") {
+  if (entry.source_surface === "Notion" || entry.source_surface === "OneDrive") {
     const reference = privateReference(entry.source_locator);
     return {
       record_kind: "source_index",
       candidate_id: entry.candidate_id,
-      title: "Private Notion record — controlled access required",
+      title: `Private ${entry.source_surface} record — controlled access required`,
       delta_family: entry.delta_family,
       source_surface: entry.source_surface,
       provenance_reference: reference,
