@@ -1,11 +1,11 @@
-# Atlas Lattice Corpus Delta Review Index
+# Atlas Lattice Corpus Source Review Index
 
 **Status:** Public review index; staged material only; not canon; not a deployment authorization.  
-**Purpose:** Provide a reproducible, source-addressable review surface for the Atlas Lattice / Aluminum OS corpus without copying non-public source contents into a public repository.
+**Purpose:** Provide a reproducible, source-addressable review surface for the Atlas Lattice / Aluminum OS corpus without copying non-public source contents into a public repository. The current release is a **671-record source-index floor**; it is not yet the final atomic-delta extraction.
 
 ## Review Boundary
 
-The included ledger is an **evidence-bounded candidate index**. It identifies each source-addressable delta, its origin surface, its evidence state, and its current quarantine/review state. The ledger does not represent a finding that a record is operational, adopted, externally reviewed, or authorized for deployment.
+The included ledger is an **evidence-bounded candidate source index**. It identifies each source-addressable container or record, its origin surface, its evidence state, and its current quarantine/review state. The ledger does not represent a finding that a record is an atomic implementation delta, operational, adopted, externally reviewed, or authorized for deployment.
 
 | Source surface | Public review treatment |
 |---|---|
@@ -30,7 +30,7 @@ Records matching the active BULLSHIT quarantine criteria are preserved in the le
 
 | File | Contents |
 |---|---|
-| `data/review-delta-ledger.json` | Sanitized public review index of staged deltas. |
+| `data/review-delta-ledger.json` | Sanitized public review index of staged source records. |
 | `data/review-delta-ledger-summary.json` | Source-surface and status counts. |
 | `POLICY.md` | Publication, source-access, and review boundary. |
 

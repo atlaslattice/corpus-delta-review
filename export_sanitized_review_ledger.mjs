@@ -13,6 +13,7 @@ const sanitized = input.map((entry) => {
   if (entry.source_surface === "Notion") {
     const reference = privateReference(entry.source_locator);
     return {
+      record_kind: "source_index",
       candidate_id: entry.candidate_id,
       title: "Private Notion record — controlled access required",
       delta_family: entry.delta_family,
@@ -28,6 +29,7 @@ const sanitized = input.map((entry) => {
   }
 
   return {
+    record_kind: "source_index",
     candidate_id: entry.candidate_id,
     title: entry.title,
     delta_family: entry.delta_family,
@@ -62,5 +64,5 @@ await mkdir(outputDir, { recursive: true });
 await writeFile(`${outputDir}/review-delta-ledger.json`, `${JSON.stringify(sanitized, null, 2)}\n`);
 await writeFile(
   `${outputDir}/review-delta-ledger-summary.json`,
-  `${JSON.stringify({ generated_at: new Date().toISOString(), total_records: sanitized.length, source_surfaces: bySurface }, null, 2)}\n`,
+  `${JSON.stringify({ generated_at: new Date().toISOString(), ledger_kind: "source_index_floor", total_records: sanitized.length, source_surfaces: bySurface }, null, 2)}\n`,
 );
