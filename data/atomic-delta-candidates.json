@@ -1,0 +1,167 @@
+[
+  {
+    "atomic_delta_id": "atomic:architecture:v3-baseline-identification",
+    "title": "Architecture v3.0 Baseline Identification",
+    "source_reference": "private-notion:arch-v3-baseline",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "A source designates an April 1, 2026 architecture specification as v3.0 baseline locked and identifies it as a 12-sphere, 144-element, 110-node blueprint.",
+    "boundary": "The source designation is not, by itself, a public Canon Register promotion."
+  },
+  {
+    "atomic_delta_id": "atomic:architecture:gravity-protocol-noncanon",
+    "title": "Gravity Protocol Explicit Non-Canon Boundary",
+    "source_reference": "private-notion:arch-v3-baseline",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The architecture source explicitly marks the Gravity Protocol as under council debate and not canonical.",
+    "boundary": "Must remain non-canonical pending independently recorded review."
+  },
+  {
+    "atomic_delta_id": "atomic:architecture:linked-module-map",
+    "title": "Linked Architecture Module Map",
+    "source_reference": "private-notion:arch-v3-baseline",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The v3.0 source presents a linked module map spanning invariants, mission, mathematics, regenerative loops, agents, adoption, ontology, partner mapping, proposals, and audit.",
+    "boundary": "Each linked module remains a separately reviewable source record."
+  },
+  {
+    "atomic_delta_id": "atomic:preservation:zero-deletion-policy",
+    "title": "Zero-Deletion Preservation Policy",
+    "source_reference": "private-notion:data-preservation-doctrine",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "A preservation doctrine prohibits permanent removal of nodes, datasets, artifacts, and media by autonomous agents or optimization processes.",
+    "boundary": "This is source-declared policy intent; operational enforcement requires code and audit evidence."
+  },
+  {
+    "atomic_delta_id": "atomic:preservation:media-coverage",
+    "title": "Full-Media Preservation Scope",
+    "source_reference": "private-notion:data-preservation-doctrine",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The preservation source names text, Markdown, audio, video, code, and raw JSON exports as covered media.",
+    "boundary": "Coverage is a policy candidate, not proof that all formats are currently preserved."
+  },
+  {
+    "atomic_delta_id": "atomic:provenance:gap-forensics-receipt",
+    "title": "Gap-Forensics Provenance Receipt",
+    "source_reference": "private-notion:data-preservation-doctrine",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The preservation source proposes recording a data gap as an artifact and preserving surrounding context with timestamps and metadata.",
+    "boundary": "This is a provenance-event design candidate and not evidence of any particular incident."
+  },
+  {
+    "atomic_delta_id": "atomic:retrieval:additive-signposting",
+    "title": "Additive Signposting for Context Management",
+    "source_reference": "private-notion:data-preservation-doctrine",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The source directs context management through indexes, front doors, and lineage markers rather than destructive pruning.",
+    "boundary": "Suitable for policy review; it does not establish current enforcement."
+  },
+  {
+    "atomic_delta_id": "atomic:control-plane:component-model",
+    "title": "Agent Control-Plane Component Model",
+    "source_reference": "private-notion:agent-control-plane-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "A draft specification describes an agent registry, policy engine, deliberation interface, and immutable audit log as four control-plane components.",
+    "boundary": "The source labels itself a draft implementation artifact; no runtime deployment is verified."
+  },
+  {
+    "atomic_delta_id": "atomic:control-plane:agent-card-contract",
+    "title": "Signed Agent-Card Contract",
+    "source_reference": "private-notion:agent-control-plane-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "The draft specifies agent identifier, version, capabilities, autonomy level, constitutional hash, and public key as metadata fields.",
+    "boundary": "Draft interface contract; requires implementation and security review."
+  },
+  {
+    "atomic_delta_id": "atomic:control-plane:delegation-verification",
+    "title": "Delegation Verification Workflow",
+    "source_reference": "private-notion:agent-control-plane-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "The draft proposes signed registration, constitutional-hash verification, registry publication, and signature verification before delegation.",
+    "boundary": "Security design proposal; not implementation evidence."
+  },
+  {
+    "atomic_delta_id": "atomic:governance:human-confirmation-for-critical-actions",
+    "title": "Critical-Action Human Confirmation",
+    "source_reference": "private-notion:uws-governance-layer-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "A draft UWS governance design requires direct human confirmation for critical-impact tool operations.",
+    "boundary": "Candidate control; exact impact classification and confirmation implementation remain unverified."
+  },
+  {
+    "atomic_delta_id": "atomic:governance:tool-impact-registry",
+    "title": "Tool-Impact Registry",
+    "source_reference": "private-notion:uws-governance-layer-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "The UWS draft describes per-tool metadata for name, description, impact level, and required permissions.",
+    "boundary": "Draft data model."
+  },
+  {
+    "atomic_delta_id": "atomic:governance:monitor-only-rollout",
+    "title": "Monitor-Only Governance Rollout",
+    "source_reference": "private-notion:uws-governance-layer-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "The UWS draft explicitly proposes monitor-only operation before active enforcement.",
+    "boundary": "Implementation sequencing proposal, not execution evidence."
+  },
+  {
+    "atomic_delta_id": "atomic:taxonomy:linked-not-duplicated-spheres",
+    "title": "Linked-Not-Duplicated 12×12 Taxonomy",
+    "source_reference": "private-notion:sheldonbrain-master-index",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "A living master index organizes material into 12 folders by 12 subsets and describes cross-domain artifacts as links rather than duplicates.",
+    "boundary": "Navigation/taxonomy model; individual records still need review."
+  },
+  {
+    "atomic_delta_id": "atomic:taxonomy:artifact-tiering-backlog",
+    "title": "Artifact Tiering Backlog",
+    "source_reference": "private-notion:sheldonbrain-master-index",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The master index lists Tier 1/2/3 assignment for every artifact as unfinished work.",
+    "boundary": "A declared backlog item, not a completed classification system."
+  }
+]
