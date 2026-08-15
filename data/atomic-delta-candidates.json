@@ -163,5 +163,71 @@
     "review_state": "staged",
     "summary": "The master index lists Tier 1/2/3 assignment for every artifact as unfinished work.",
     "boundary": "A declared backlog item, not a completed classification system."
+  },
+  {
+    "atomic_delta_id": "atomic:recovery:v5-live-landing-page",
+    "title": "Live Atlas Lattice v5 Public Landing Page",
+    "source_reference": "https://atlaslatticev5bot.manus.space/",
+    "source_surface": "Public web",
+    "evidence_status": "direct_public_observation",
+    "classification": "recovery/source",
+    "review_state": "staged",
+    "summary": "The canonical v5 public address rendered a non-empty Aluminum OS and New Deal 2.0 landing page during recovery review.",
+    "boundary": "Public-page availability is directly observed; all architectural, economic, and deployment statements on the page remain source claims."
+  },
+  {
+    "atomic_delta_id": "atomic:recovery:v5-governance-route-map",
+    "title": "V5 Governance Route Map",
+    "source_reference": "https://atlaslatticev5bot.manus.space/",
+    "source_surface": "Public web",
+    "evidence_status": "direct_public_observation",
+    "classification": "recovery/source",
+    "review_state": "staged",
+    "summary": "The v5 landing page exposes route references for canon, invariants, doctrines, sovereign-dividend material, and a governance failure ledger.",
+    "boundary": "Each referenced route is independently reviewable and does not inherit canon status merely by linkage."
+  },
+  {
+    "atomic_delta_id": "atomic:recovery:v5-canon-draft-boundary",
+    "title": "V5 Canon Draft Boundary",
+    "source_reference": "https://atlaslatticev5bot.manus.space/canon",
+    "source_surface": "Public web",
+    "evidence_status": "direct_public_observation",
+    "classification": "recovery/source",
+    "review_state": "staged",
+    "summary": "The v5 public canon route identifies its state as a v4.1 draft with ratification in progress and includes open items.",
+    "boundary": "The route’s self-declared authority does not supersede the separate public GitHub Canon Register or Alexandria’s allowlist."
+  },
+  {
+    "atomic_delta_id": "atomic:recovery:v5-status-aware-invariant-registry",
+    "title": "V5 Status-Aware Invariant Registry",
+    "source_reference": "https://atlaslatticev5bot.manus.space/invariants",
+    "source_surface": "Public web",
+    "evidence_status": "direct_public_observation",
+    "classification": "recovery/source",
+    "review_state": "staged",
+    "summary": "The public invariant route visibly distinguishes ratified and proposed entries within a 60-record registry.",
+    "boundary": "Statuses are site-declared and require reconciliation before canonical ingestion; embedded financial or deployment claims are not independently verified."
+  },
+  {
+    "atomic_delta_id": "atomic:recovery:v5-doctrine-registry",
+    "title": "V5 Status-Aware Doctrine Registry",
+    "source_reference": "https://atlaslatticev5bot.manus.space/doctrines",
+    "source_surface": "Public web",
+    "evidence_status": "direct_public_observation",
+    "classification": "recovery/source",
+    "review_state": "staged",
+    "summary": "The public doctrine route presents a registry of 120 entries with ratified, under-discussion, and proposed labels.",
+    "boundary": "Provider-named and role-specific records require quarantine review under the active corpus policy."
+  },
+  {
+    "atomic_delta_id": "atomic:recovery:v5-failure-ledger",
+    "title": "V5 Governance Failure-Ledger Source",
+    "source_reference": "https://atlaslatticev5bot.manus.space/governance/failure-ledger",
+    "source_surface": "Public web",
+    "evidence_status": "direct_public_observation",
+    "classification": "recovery/source",
+    "review_state": "staged",
+    "summary": "The public failure-ledger route preserves process-control definitions, mitigations, and source-attribution requirements.",
+    "boundary": "Historical descriptions remain source text; they cannot establish unverified misconduct or attribution involving named people, organizations, or providers."
   }
 ]
