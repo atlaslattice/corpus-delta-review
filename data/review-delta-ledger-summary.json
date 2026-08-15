@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T17:46:56.478Z",
+  "generated_at": "2026-08-15T17:47:43.430Z",
   "ledger_kind": "source_index_floor",
-  "total_records": 751,
+  "total_records": 951,
   "source_surfaces": [
     {
       "source_surface": "GitHub",
@@ -17,14 +17,14 @@
     },
     {
       "source_surface": "Notion",
-      "records": 400,
+      "records": 600,
       "classifications": {
-        "reviewed_candidate": 392,
-        "quarantine/excluded": 8
+        "reviewed_candidate": 591,
+        "quarantine/excluded": 9
       },
       "quarantine_results": {
-        "review_required": 392,
-        "keyword_matched": 8
+        "review_required": 591,
+        "keyword_matched": 9
       }
     },
     {
