@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
-const inputPath = "/home/ubuntu/corpus_delta_candidate_ledger_v8_2026_08_15.json";
+const inputPath = "/home/ubuntu/corpus_delta_candidate_ledger_v9_2026_08_15.json";
 const outputDir = "/home/ubuntu/corpus-delta-review/data";
 const input = JSON.parse(await readFile(inputPath, "utf8"));
 
