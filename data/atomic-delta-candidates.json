@@ -8,7 +8,8 @@
     "classification": "reviewed_candidate",
     "review_state": "staged",
     "summary": "A source designates an April 1, 2026 architecture specification as v3.0 baseline locked and identifies it as a 12-sphere, 144-element, 110-node blueprint.",
-    "boundary": "The source designation is not, by itself, a public Canon Register promotion."
+    "boundary": "The source designation is not, by itself, a public Canon Register promotion.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:architecture:gravity-protocol-noncanon",
@@ -19,7 +20,8 @@
     "classification": "reviewed_candidate",
     "review_state": "staged",
     "summary": "The architecture source explicitly marks the Gravity Protocol as under council debate and not canonical.",
-    "boundary": "Must remain non-canonical pending independently recorded review."
+    "boundary": "Must remain non-canonical pending independently recorded review.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:architecture:linked-module-map",
@@ -30,7 +32,8 @@
     "classification": "reviewed_candidate",
     "review_state": "staged",
     "summary": "The v3.0 source presents a linked module map spanning invariants, mission, mathematics, regenerative loops, agents, adoption, ontology, partner mapping, proposals, and audit.",
-    "boundary": "Each linked module remains a separately reviewable source record."
+    "boundary": "Each linked module remains a separately reviewable source record.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:preservation:zero-deletion-policy",
@@ -41,7 +44,8 @@
     "classification": "reviewed_candidate",
     "review_state": "staged",
     "summary": "A preservation doctrine prohibits permanent removal of nodes, datasets, artifacts, and media by autonomous agents or optimization processes.",
-    "boundary": "This is source-declared policy intent; operational enforcement requires code and audit evidence."
+    "boundary": "This is source-declared policy intent; operational enforcement requires code and audit evidence.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:preservation:media-coverage",
@@ -52,7 +56,8 @@
     "classification": "reviewed_candidate",
     "review_state": "staged",
     "summary": "The preservation source names text, Markdown, audio, video, code, and raw JSON exports as covered media.",
-    "boundary": "Coverage is a policy candidate, not proof that all formats are currently preserved."
+    "boundary": "Coverage is a policy candidate, not proof that all formats are currently preserved.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:provenance:gap-forensics-receipt",
@@ -63,7 +68,8 @@
     "classification": "reviewed_candidate",
     "review_state": "staged",
     "summary": "The preservation source proposes recording a data gap as an artifact and preserving surrounding context with timestamps and metadata.",
-    "boundary": "This is a provenance-event design candidate and not evidence of any particular incident."
+    "boundary": "This is a provenance-event design candidate and not evidence of any particular incident.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:retrieval:additive-signposting",
@@ -74,7 +80,8 @@
     "classification": "reviewed_candidate",
     "review_state": "staged",
     "summary": "The source directs context management through indexes, front doors, and lineage markers rather than destructive pruning.",
-    "boundary": "Suitable for policy review; it does not establish current enforcement."
+    "boundary": "Suitable for policy review; it does not establish current enforcement.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:control-plane:component-model",
@@ -85,7 +92,8 @@
     "classification": "research/scenario",
     "review_state": "staged",
     "summary": "A draft specification describes an agent registry, policy engine, deliberation interface, and immutable audit log as four control-plane components.",
-    "boundary": "The source labels itself a draft implementation artifact; no runtime deployment is verified."
+    "boundary": "The source labels itself a draft implementation artifact; no runtime deployment is verified.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:control-plane:agent-card-contract",
@@ -96,7 +104,8 @@
     "classification": "research/scenario",
     "review_state": "staged",
     "summary": "The draft specifies agent identifier, version, capabilities, autonomy level, constitutional hash, and public key as metadata fields.",
-    "boundary": "Draft interface contract; requires implementation and security review."
+    "boundary": "Draft interface contract; requires implementation and security review.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:control-plane:delegation-verification",
@@ -107,7 +116,8 @@
     "classification": "research/scenario",
     "review_state": "staged",
     "summary": "The draft proposes signed registration, constitutional-hash verification, registry publication, and signature verification before delegation.",
-    "boundary": "Security design proposal; not implementation evidence."
+    "boundary": "Security design proposal; not implementation evidence.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:governance:human-confirmation-for-critical-actions",
@@ -118,7 +128,8 @@
     "classification": "research/scenario",
     "review_state": "staged",
     "summary": "A draft UWS governance design requires direct human confirmation for critical-impact tool operations.",
-    "boundary": "Candidate control; exact impact classification and confirmation implementation remain unverified."
+    "boundary": "Candidate control; exact impact classification and confirmation implementation remain unverified.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:governance:tool-impact-registry",
@@ -129,7 +140,8 @@
     "classification": "research/scenario",
     "review_state": "staged",
     "summary": "The UWS draft describes per-tool metadata for name, description, impact level, and required permissions.",
-    "boundary": "Draft data model."
+    "boundary": "Draft data model.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:governance:monitor-only-rollout",
@@ -140,7 +152,8 @@
     "classification": "research/scenario",
     "review_state": "staged",
     "summary": "The UWS draft explicitly proposes monitor-only operation before active enforcement.",
-    "boundary": "Implementation sequencing proposal, not execution evidence."
+    "boundary": "Implementation sequencing proposal, not execution evidence.",
+    "quarantine_result": "review_required"
   },
   {
     "atomic_delta_id": "atomic:taxonomy:linked-not-duplicated-spheres",
@@ -151,7 +164,8 @@
     "classification": "reviewed_candidate",
     "review_state": "staged",
     "summary": "A living master index organizes material into 12 folders by 12 subsets and describes cross-domain artifacts as links rather than duplicates.",
-    "boundary": "Navigation/taxonomy model; individual records still need review."
+    "boundary": "Navigation/taxonomy model; individual records still need review.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:taxonomy:artifact-tiering-backlog",
@@ -162,7 +176,8 @@
     "classification": "reviewed_candidate",
     "review_state": "staged",
     "summary": "The master index lists Tier 1/2/3 assignment for every artifact as unfinished work.",
-    "boundary": "A declared backlog item, not a completed classification system."
+    "boundary": "A declared backlog item, not a completed classification system.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:recovery:v5-live-landing-page",
@@ -173,7 +188,8 @@
     "classification": "recovery/source",
     "review_state": "staged",
     "summary": "The canonical v5 public address rendered a non-empty Aluminum OS and New Deal 2.0 landing page during recovery review.",
-    "boundary": "Public-page availability is directly observed; all architectural, economic, and deployment statements on the page remain source claims."
+    "boundary": "Public-page availability is directly observed; all architectural, economic, and deployment statements on the page remain source claims.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:recovery:v5-governance-route-map",
@@ -184,7 +200,8 @@
     "classification": "recovery/source",
     "review_state": "staged",
     "summary": "The v5 landing page exposes route references for canon, invariants, doctrines, sovereign-dividend material, and a governance failure ledger.",
-    "boundary": "Each referenced route is independently reviewable and does not inherit canon status merely by linkage."
+    "boundary": "Each referenced route is independently reviewable and does not inherit canon status merely by linkage.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:recovery:v5-canon-draft-boundary",
@@ -195,7 +212,8 @@
     "classification": "recovery/source",
     "review_state": "staged",
     "summary": "The v5 public canon route identifies its state as a v4.1 draft with ratification in progress and includes open items.",
-    "boundary": "The route’s self-declared authority does not supersede the separate public GitHub Canon Register or Alexandria’s allowlist."
+    "boundary": "The route’s self-declared authority does not supersede the separate public GitHub Canon Register or Alexandria’s allowlist.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:recovery:v5-status-aware-invariant-registry",
@@ -206,7 +224,8 @@
     "classification": "recovery/source",
     "review_state": "staged",
     "summary": "The public invariant route visibly distinguishes ratified and proposed entries within a 60-record registry.",
-    "boundary": "Statuses are site-declared and require reconciliation before canonical ingestion; embedded financial or deployment claims are not independently verified."
+    "boundary": "Statuses are site-declared and require reconciliation before canonical ingestion; embedded financial or deployment claims are not independently verified.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:recovery:v5-doctrine-registry",
@@ -217,7 +236,8 @@
     "classification": "recovery/source",
     "review_state": "staged",
     "summary": "The public doctrine route presents a registry of 120 entries with ratified, under-discussion, and proposed labels.",
-    "boundary": "Provider-named and role-specific records require quarantine review under the active corpus policy."
+    "boundary": "Provider-named and role-specific records require quarantine review under the active corpus policy.",
+    "quarantine_result": "keyword_matched"
   },
   {
     "atomic_delta_id": "atomic:recovery:v5-failure-ledger",
@@ -228,6 +248,7 @@
     "classification": "recovery/source",
     "review_state": "staged",
     "summary": "The public failure-ledger route preserves process-control definitions, mitigations, and source-attribution requirements.",
-    "boundary": "Historical descriptions remain source text; they cannot establish unverified misconduct or attribution involving named people, organizations, or providers."
+    "boundary": "Historical descriptions remain source text; they cannot establish unverified misconduct or attribution involving named people, organizations, or providers.",
+    "quarantine_result": "keyword_matched"
   }
 ]
