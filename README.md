@@ -1,7 +1,7 @@
 # Atlas Lattice Corpus Source Review Index
 
 **Status:** Public review index; staged material only; not canon; not a deployment authorization.  
-**Purpose:** Provide a reproducible, source-addressable review surface for the Atlas Lattice / Aluminum OS corpus without copying non-public source contents into a public repository. The current release is a **2,163-record source-index floor**—271 GitHub records, 1,812 redacted Notion records, and 80 redacted OneDrive observations—and a separately staged **26-record atomic-delta candidate layer**. Neither layer is the final atomic-delta extraction.
+**Purpose:** Provide a reproducible, source-addressable review surface for the Atlas Lattice / Aluminum OS corpus without copying non-public source contents into a public repository. The current release is a **2,163-record source-index floor**—271 GitHub records, 1,812 redacted Notion records, and 80 redacted OneDrive observations—and a separately staged **35-record atomic-delta candidate layer**. Neither layer is the final atomic-delta extraction.
 
 ## Review Boundary
 
