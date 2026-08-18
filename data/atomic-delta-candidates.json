@@ -250,5 +250,65 @@
     "summary": "The public failure-ledger route preserves process-control definitions, mitigations, and source-attribution requirements.",
     "boundary": "Historical descriptions remain source text; they cannot establish unverified misconduct or attribution involving named people, organizations, or providers.",
     "quarantine_result": "keyword_matched"
+  },
+  {
+    "atomic_delta_id": "atomic:legacy:regenerative-ai-governance-principle",
+    "title": "Regenerative AI Governance Principle",
+    "source_reference": "local-legacy:mother-earth-nexus-july-2025",
+    "source_surface": "User-provided legacy document",
+    "evidence_status": "assessment-backed-source-text",
+    "classification": "legacy/candidate",
+    "review_state": "staged",
+    "summary": "The preserved legacy document articulates a governance principle centered on creator agency, attribution, environmental responsibility, and reviewable AI decision-making.",
+    "boundary": "Conceptual compatibility only; operational controls and performance claims require independently reviewed evidence.",
+    "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:legacy:functional-mirror-council-interface",
+    "title": "Functional Mirror Council Interface",
+    "source_reference": "local-legacy:mother-earth-nexus-july-2025",
+    "source_surface": "User-provided legacy document",
+    "evidence_status": "assessment-backed-source-text",
+    "classification": "legacy/candidate",
+    "review_state": "staged",
+    "summary": "The legacy document proposes separation among causal reasoning, strategy, narrative, risk, and execution functions; the durable candidate is a substrate-neutral role interface.",
+    "boundary": "Named vendor or model assignments are excluded; functional roles require individual authority and evidence definitions.",
+    "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:legacy:pendragon-provenance-event-protocol",
+    "title": "Pendragon Provenance Event Protocol Lineage",
+    "source_reference": "local-legacy:mother-earth-nexus-july-2025",
+    "source_surface": "User-provided legacy document",
+    "evidence_status": "assessment-backed-source-text",
+    "classification": "legacy/candidate",
+    "review_state": "implemented-with-legacy-lineage",
+    "summary": "The legacy document identifies a provenance-event pattern for attribution and review; Alexandria now implements a named Pendragon append-only protocol without inheriting payment or deployment assertions.",
+    "boundary": "The legacy source establishes design lineage only; Alexandria implementation and payment/compensation claims are separately reviewable.",
+    "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:legacy:creator-attribution-compensation-research",
+    "title": "Creator Attribution and Compensation Research Track",
+    "source_reference": "local-legacy:mother-earth-nexus-july-2025",
+    "source_surface": "User-provided legacy document",
+    "evidence_status": "assessment-backed-source-text",
+    "classification": "legacy/research",
+    "review_state": "research_only",
+    "summary": "The legacy source proposes creator attribution, licensing, and compensation as a research direction for a future rights-aware ecosystem.",
+    "boundary": "No payment, revenue, ownership, licensing, or legal compliance claim is established by this candidate.",
+    "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:legacy:environmental-impact-evidence-model",
+    "title": "Environmental Impact Evidence Model",
+    "source_reference": "local-legacy:mother-earth-nexus-july-2025",
+    "source_surface": "User-provided legacy document",
+    "evidence_status": "assessment-backed-source-text",
+    "classification": "legacy/research",
+    "review_state": "research_only",
+    "summary": "The legacy source proposes environmental accountability and circular reinvestment as a measurement-oriented research direction.",
+    "boundary": "The proposal provides no validated metrics, units, methods, or external source references for operational impact claims.",
+    "quarantine_result": "review_required"
   }
 ]
