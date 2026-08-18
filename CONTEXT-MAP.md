@@ -13,6 +13,6 @@ This is a public, non-canonical orientation layer for [Atlas Lattice corpus revi
 
 ## Coverage Boundary
 
-The accessible Notion inventory has been traversed, while full semantic atomic extraction remains ongoing. OneDrive remains incomplete because browser results cannot produce a full immutable manifest with item IDs, timestamps, eTags, and hashes. The complete cross-platform atomic ledger remains a staged objective.
+The accessible Notion inventory has been traversed, while full semantic atomic extraction remains ongoing. OneDrive remains incomplete because browser results cannot produce a full immutable manifest with item IDs, timestamps, eTags, and hashes. On August 18, 2026, an explicitly authorized live OneDrive inventory was attempted without changing any source item; the browser session returned no stable page state or item metadata. The public review index therefore retains only prior browser-observed OneDrive source records and connected-source discovery references. The complete cross-platform atomic ledger remains a staged objective.
 
 > **Review availability is not authority.** This repository is intended to help reviewers find and assess source-bounded material while keeping canon, private access, quarantine, and deployment boundaries explicit.
