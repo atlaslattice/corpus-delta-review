@@ -18,7 +18,7 @@ The included ledger is an **evidence-bounded candidate source index**. It identi
 
 ## Authority Model
 
-Only the [Alexandria Canon Register](https://github.com/atlaslattice/alexandria-canon-register) can designate a record as canonical. This repository is deliberately separate from the Canon Register so that review material cannot silently acquire canonical status.
+The staged, source-linked delta layer is the only public-facing corpus surface. The former Canon Register is preserved as quarantined experimental and failure-mode history; it does not designate public authority, control public retrieval, or authorize deployment.
 
 > The ledger preserves source identity and review state. It does **not** confer authority, make an institutional claim, or substitute for recipient-side verification.
 
@@ -35,6 +35,7 @@ Records matching the active BULLSHIT quarantine criteria are preserved in the le
 | `data/atomic-delta-candidates.json` | Evidence-bounded atomic delta candidates extracted from directly read private sources and directly observed public recovery sources; every record includes an explicit quarantine outcome. |
 | `data/succession-language-decision-register.json` | Source-bounded decisions for reviewed public GitHub succession-language references; context resolution never overrides the active quarantine-routing rule. |
 | `CONTEXT-MAP.md` | Public orientation, authority layers, and explicit coverage boundaries. |
+| `FORMER_CANON_QUARANTINE_RECEIPT.md` | Reversible former-canon quarantine receipt and delta-only public boundary. |
 | `POLICY.md` | Publication, source-access, and review boundary. |
 
 ## Source Access Requests
