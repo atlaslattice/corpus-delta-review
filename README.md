@@ -1,7 +1,7 @@
 # Atlas Lattice Corpus Source Review Index
 
 **Status:** Public review index; staged material only; not canon; not a deployment authorization.  
-**Purpose:** Provide a reproducible, source-addressable review surface for the Atlas Lattice / Aluminum OS corpus without copying non-public source contents into a public repository. The current release is a **671-record source-index floor**; it is not yet the final atomic-delta extraction.
+**Purpose:** Provide a reproducible, source-addressable review surface for the Atlas Lattice / Aluminum OS corpus without copying non-public source contents into a public repository. The current release is a **2,163-record source-index floor**—271 GitHub records, 1,812 redacted Notion records, and 80 redacted OneDrive observations—and a separately staged **26-record atomic-delta candidate layer**. Neither layer is the final atomic-delta extraction.
 
 ## Review Boundary
 
@@ -11,7 +11,7 @@ The included ledger is an **evidence-bounded candidate source index**. It identi
 |---|---|
 | GitHub | Original public repository URL is retained. |
 | Notion | Private page title and URL are replaced by a deterministic provenance reference. Reviewers can request controlled source access using that reference. |
-| OneDrive | Not included until item-level inventory and access controls are verified. |
+| OneDrive | Redacted browser-observed source records are included. A live item-level manifest remains incomplete pending verified IDs, paths, timestamps, eTags, hashes, and access controls. |
 | Alexandria | Implementation records will be added after source-level extraction and policy review. |
 | Public sites | Public URLs may be retained with capture date and provenance status. |
 | Recovery archives | Included only with their source and release status explicitly marked. |
@@ -33,6 +33,7 @@ Records matching the active BULLSHIT quarantine criteria are preserved in the le
 | `data/review-delta-ledger.json` | Sanitized public review index of staged source records. |
 | `data/review-delta-ledger-summary.json` | Source-surface and status counts. |
 | `data/atomic-delta-candidates.json` | Evidence-bounded atomic delta candidates extracted from directly read private sources and directly observed public recovery sources; every record includes an explicit quarantine outcome. |
+| `CONTEXT-MAP.md` | Public orientation, authority layers, and explicit coverage boundaries. |
 | `POLICY.md` | Publication, source-access, and review boundary. |
 
 ## Source Access Requests
