@@ -310,5 +310,113 @@
     "summary": "The legacy source proposes environmental accountability and circular reinvestment as a measurement-oriented research direction.",
     "boundary": "The proposal provides no validated metrics, units, methods, or external source references for operational impact claims.",
     "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:architecture:lattice-shape-declaration",
+    "title": "Lattice Shape Declaration",
+    "source_reference": "private-notion:arch-v3-baseline",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The locked architecture source describes a 12-sphere, 144-element, 110-node blueprint.",
+    "boundary": "This is a source-declared model shape and does not independently verify implementation completeness.",
+    "quarantine_result": "keyword_matched"
+  },
+  {
+    "atomic_delta_id": "atomic:architecture:v3-revision-provenance",
+    "title": "Architecture v3 Revision Provenance",
+    "source_reference": "private-notion:arch-v3-baseline",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The v3.0 source records a revision history that removed selected framing, qualified financial-ramp material, documented debate status, and established signatory authority.",
+    "boundary": "Historical revision description only; the underlying changes and authority require separate review evidence.",
+    "quarantine_result": "keyword_matched"
+  },
+  {
+    "atomic_delta_id": "atomic:control-plane:autonomy-policy-levels",
+    "title": "Autonomy Policy-Level Model",
+    "source_reference": "private-notion:agent-control-plane-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "A draft control-plane specification distinguishes advisory, collaborative, and autonomous action levels with human or council escalation according to level.",
+    "boundary": "Draft policy model; it does not establish deployed enforcement or a complete impact taxonomy.",
+    "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:control-plane:immutable-audit-intent",
+    "title": "Immutable Audit-Log Intent",
+    "source_reference": "private-notion:agent-control-plane-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "The draft proposes an immutable ledger for actions, policy evaluations, and council decisions.",
+    "boundary": "Design intent only; runtime immutability and coverage are unverified pending implementation evidence.",
+    "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:preservation:read-only-audit-freeze",
+    "title": "Read-Only Audit-Freeze Proposal",
+    "source_reference": "private-notion:data-preservation-doctrine",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The preservation doctrine proposes a read-only freeze across connected records during an audit, recording scope, duration, trigger, and release.",
+    "boundary": "High-impact design proposal requiring human authorization, proportionality, and implementation evidence.",
+    "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:governance:mcp-middleware-gate",
+    "title": "MCP Middleware Gate Proposal",
+    "source_reference": "private-notion:uws-governance-layer-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "The UWS governance draft proposes intercepting incoming MCP tool calls before execution with approve, deny, or escalate outcomes.",
+    "boundary": "Draft architecture only; enforcement behavior and exception handling require implementation and security review.",
+    "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:governance:least-privilege-execution",
+    "title": "Least-Privilege Execution Proposal",
+    "source_reference": "private-notion:uws-governance-layer-v1",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "research/scenario",
+    "review_state": "staged",
+    "summary": "The UWS governance draft proposes executing requests under the originating user identity and permission scope.",
+    "boundary": "Intended security control; identity propagation and permission enforcement require runtime evidence.",
+    "quarantine_result": "review_required"
+  },
+  {
+    "atomic_delta_id": "atomic:taxonomy:twelve-domain-filing-structure",
+    "title": "Twelve-Domain Filing Structure",
+    "source_reference": "private-notion:sheldonbrain-master-index",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The living master index names a twelve-domain filing structure spanning constitutional, governance, diplomacy, intellectual-property, life-system, care, verification, cultural, infrastructure, archive, public-release, and checkpoint material.",
+    "boundary": "Historical source taxonomy only; individual records and classifications require independent review.",
+    "quarantine_result": "keyword_matched"
+  },
+  {
+    "atomic_delta_id": "atomic:taxonomy:cross-domain-reference-edges",
+    "title": "Cross-Domain Reference Edges",
+    "source_reference": "private-notion:sheldonbrain-master-index",
+    "source_surface": "Notion",
+    "evidence_status": "direct_source_text",
+    "classification": "reviewed_candidate",
+    "review_state": "staged",
+    "summary": "The master index describes certain artifacts as linked across folders rather than duplicated, supporting candidate relationship edges in a graph model.",
+    "boundary": "Candidate relationship pattern only; source-level edge reconciliation is required before graph assertion.",
+    "quarantine_result": "keyword_matched"
   }
 ]
