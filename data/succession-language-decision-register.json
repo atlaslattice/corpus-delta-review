@@ -1,0 +1,62 @@
+[
+  {
+    "decision_id": "succession:github:noosphere-d126-review-packet",
+    "source_reference": "github:atlaslattice/noosphere-archive/D-126-v1.3-S10-Review-Packet.md",
+    "source_surface": "GitHub",
+    "domain": "governance",
+    "context_summary": "The source describes an irreversible transfer of Convenor authority only through a pre-ratified written instrument authored while the relevant human authority is competent.",
+    "operational_mechanism_observed": "source-defined draft mechanism; ratification and execution unverified",
+    "review_decision": "review_required",
+    "quarantine_result": "keyword_matched",
+    "rationale": "A direct governance-transfer concept is present, but no ratification, execution, access event, or compromise is established.",
+    "evidence_boundary": "The source text does not establish an enacted succession plan or third-party authority transfer."
+  },
+  {
+    "decision_id": "succession:github:manus-artifacts-council-constitution",
+    "source_reference": "github:atlaslattice/manus-artifacts/GOVERNANCE_CONSTITUTION_Pantheon_Council_v1.md",
+    "source_surface": "GitHub",
+    "domain": "governance",
+    "context_summary": "The source uses succession language to describe continuity of a constitution if a council ceases.",
+    "operational_mechanism_observed": "none identified",
+    "review_decision": "context_resolved",
+    "quarantine_result": "keyword_matched",
+    "rationale": "The text states constitutional continuity intent without an executable succession workflow.",
+    "evidence_boundary": "Operational implementation or execution of succession provisions is not established."
+  },
+  {
+    "decision_id": "succession:github:sheldonbrain-rag-agriculture",
+    "source_reference": "github:atlaslattice/sheldonbrain-rag-api/CLOSED_LOOP_VIBROACOUSTIC_PRECISION_AGRICULTURE_2026-08-11.md",
+    "source_surface": "GitHub",
+    "domain": "governance",
+    "context_summary": "The source expressly states that attribution and provenance do not grant succession rights, authority, ownership, or decision rights.",
+    "operational_mechanism_observed": "none identified",
+    "review_decision": "context_resolved",
+    "quarantine_result": "keyword_matched",
+    "rationale": "The reference is a non-transfer disclaimer rather than a proposed mechanism.",
+    "evidence_boundary": "The disclaimer does not establish any operational authority or succession system."
+  },
+  {
+    "decision_id": "succession:github:atlas-lattice-foundation-legal-addendum",
+    "source_reference": "github:atlaslattice/atlas-lattice-foundation/Sovereign_Enclave_Legal_Addendum_Template_v1.1-v1.3.md",
+    "source_surface": "GitHub",
+    "domain": "technical_lineage",
+    "context_summary": "The source uses successor terminology for replacement settlement-ledger and lunar-site references.",
+    "operational_mechanism_observed": "none identified",
+    "review_decision": "context_resolved",
+    "quarantine_result": "keyword_matched",
+    "rationale": "The term describes technical and geographic fallback terminology, not human governance transfer.",
+    "evidence_boundary": "No active operational succession mechanism, protocol execution, or institutional adoption is established."
+  },
+  {
+    "decision_id": "succession:github:manus-artifacts-cilo-20",
+    "source_reference": "github:atlaslattice/manus-artifacts/cilo-20-constitutional-invariants-lunar-operations-candidate-v0.2-grok.md",
+    "source_surface": "GitHub",
+    "domain": "ecology",
+    "context_summary": "The source uses microbial succession in a candidate bio-closure requirement.",
+    "operational_mechanism_observed": "none identified",
+    "review_decision": "context_resolved",
+    "quarantine_result": "keyword_matched",
+    "rationale": "The term is ecological rather than a governance or authority-transfer reference; metadata still triggers the existing quarantine routing rule.",
+    "evidence_boundary": "Candidate ecological requirements and any governance or deployment interpretation are not established."
+  }
+]

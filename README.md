@@ -33,6 +33,7 @@ Records matching the active BULLSHIT quarantine criteria are preserved in the le
 | `data/review-delta-ledger.json` | Sanitized public review index of staged source records. |
 | `data/review-delta-ledger-summary.json` | Source-surface and status counts. |
 | `data/atomic-delta-candidates.json` | Evidence-bounded atomic delta candidates extracted from directly read private sources and directly observed public recovery sources; every record includes an explicit quarantine outcome. |
+| `data/succession-language-decision-register.json` | Source-bounded decisions for reviewed public GitHub succession-language references; context resolution never overrides the active quarantine-routing rule. |
 | `CONTEXT-MAP.md` | Public orientation, authority layers, and explicit coverage boundaries. |
 | `POLICY.md` | Publication, source-access, and review boundary. |
 
